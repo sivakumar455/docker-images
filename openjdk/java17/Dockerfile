@@ -1,5 +1,5 @@
 # base image to build a JRE
-FROM amazoncorretto:17-alpine as corretto-jdk17
+FROM amazoncorretto:17-alpine AS corretto-jdk17
 
 # set proxy 
 # ENV http_proxy http://testproxy.com:8080
